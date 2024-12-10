@@ -1,0 +1,1 @@
+stm32f407igt6_boot\startup_stm32f407xx.o: startup_stm32f407xx.s
