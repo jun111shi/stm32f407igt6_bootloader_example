@@ -1208,21 +1208,21 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x00000188   Data   RO            3    RESET               startup_stm32f407xx.o
-    0x08000188   0x08000188   0x00000000   Code   RO         1990  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000188   0x08000188   0x00000004   Code   RO         2258    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x0800018c   0x0800018c   0x00000004   Code   RO         2261    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         2263    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         2265    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000190   0x08000190   0x00000008   Code   RO         2266    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         2268    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         2270    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000198   0x08000198   0x00000004   Code   RO         2259    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000188   0x08000188   0x00000000   Code   RO         2067  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000188   0x08000188   0x00000004   Code   RO         2335    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0800018c   0x0800018c   0x00000004   Code   RO         2338    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         2340    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         2342    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000190   0x08000190   0x00000008   Code   RO         2343    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         2345    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         2347    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000198   0x08000198   0x00000004   Code   RO         2336    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x0800019c   0x0800019c   0x00000024   Code   RO            4    .text               startup_stm32f407xx.o
-    0x080001c0   0x080001c0   0x00000062   Code   RO         1993    .text               mc_w.l(uldiv.o)
-    0x08000222   0x08000222   0x00000024   Code   RO         1995    .text               mc_w.l(memseta.o)
-    0x08000246   0x08000246   0x0000001e   Code   RO         2275    .text               mc_w.l(llshl.o)
-    0x08000264   0x08000264   0x00000020   Code   RO         2277    .text               mc_w.l(llushr.o)
-    0x08000284   0x08000284   0x00000024   Code   RO         2290    .text               mc_w.l(init.o)
+    0x080001c0   0x080001c0   0x00000062   Code   RO         2070    .text               mc_w.l(uldiv.o)
+    0x08000222   0x08000222   0x00000024   Code   RO         2072    .text               mc_w.l(memseta.o)
+    0x08000246   0x08000246   0x0000001e   Code   RO         2352    .text               mc_w.l(llshl.o)
+    0x08000264   0x08000264   0x00000020   Code   RO         2354    .text               mc_w.l(llushr.o)
+    0x08000284   0x08000284   0x00000024   Code   RO         2367    .text               mc_w.l(init.o)
     0x080002a8   0x080002a8   0x00000078   Code   RO         1927    i.APP_Flash_Erase   bootloader.o
     0x08000320   0x08000320   0x00000002   Code   RO         1929    i.Bootloader_Init   bootloader.o
     0x08000322   0x08000322   0x00000002   PAD
@@ -1292,18 +1292,18 @@ Memory Map of the image
     0x08001824   0x08001824   0x000000d4   Code   RO         1932    i.Update_Bootloader_Flag  bootloader.o
     0x080018f8   0x080018f8   0x00000002   Code   RO          242    i.UsageFault_Handler  stm32f4xx_it.o
     0x080018fa   0x080018fa   0x00000002   PAD
-    0x080018fc   0x080018fc   0x00000020   Code   RO         2130    i.__0printf$5       mc_w.l(printf5.o)
+    0x080018fc   0x080018fc   0x00000020   Code   RO         2207    i.__0printf$5       mc_w.l(printf5.o)
     0x0800191c   0x0800191c   0x00000020   Code   RO         1498    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x0800193c   0x0800193c   0x0000000e   Code   RO         2298    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0800194a   0x0800194a   0x00000002   Code   RO         2299    i.__scatterload_null  mc_w.l(handlers.o)
-    0x0800194c   0x0800194c   0x0000000e   Code   RO         2300    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800193c   0x0800193c   0x0000000e   Code   RO         2375    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0800194a   0x0800194a   0x00000002   Code   RO         2376    i.__scatterload_null  mc_w.l(handlers.o)
+    0x0800194c   0x0800194c   0x0000000e   Code   RO         2377    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x0800195a   0x0800195a   0x00000002   PAD
-    0x0800195c   0x0800195c   0x000002c0   Code   RO         2137    i._printf_core      mc_w.l(printf5.o)
+    0x0800195c   0x0800195c   0x000002c0   Code   RO         2214    i._printf_core      mc_w.l(printf5.o)
     0x08001c1c   0x08001c1c   0x00000018   Code   RO           15    i.fputc             main.o
     0x08001c34   0x08001c34   0x00000050   Code   RO           16    i.main              main.o
     0x08001c84   0x08001c84   0x00000010   Data   RO         1890    .constdata          system_stm32f4xx.o
     0x08001c94   0x08001c94   0x00000008   Data   RO         1891    .constdata          system_stm32f4xx.o
-    0x08001c9c   0x08001c9c   0x00000020   Data   RO         2296    Region$$Table       anon$$obj.o
+    0x08001c9c   0x08001c9c   0x00000020   Data   RO         2373    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08001cbc, Size: 0x00000480, Max: 0x0001c000, ABSOLUTE)
@@ -1312,7 +1312,7 @@ Memory Map of the image
 
     0x20000000   0x08001cbc   0x0000000c   Data   RW         1657    .data               stm32f4xx_hal.o
     0x2000000c   0x08001cc8   0x00000004   Data   RW         1892    .data               system_stm32f4xx.o
-    0x20000010   0x08001ccc   0x00000004   Data   RW         2272    .data               mc_w.l(stdout.o)
+    0x20000010   0x08001ccc   0x00000004   Data   RW         2349    .data               mc_w.l(stdout.o)
     0x20000014        -       0x00000048   Zero   RW          194    .bss                usart.o
     0x2000005c        -       0x00000020   Zero   RW          911    .bss                stm32f4xx_hal_flash.o
     0x2000007c   0x08001cd0   0x00000004   PAD
@@ -1331,7 +1331,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       438        228          0          0          0       8850   bootloader.o
+       438        228          0          0          0      15370   bootloader.o
         60          6          0          0          0        835   gpio.o
        256         48          0          0          0     669312   main.o
         36          8        392          0       1024        836   startup_stm32f407xx.o
@@ -1349,7 +1349,7 @@ Image component sizes
        176         20          0          0         72       1714   usart.o
 
     ----------------------------------------------------------------------
-      5888        590        448         16       1132     760845   Object Totals
+      5888        590        448         16       1132     767365   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         12          0          0          0          4          0   (incl. Padding)
 
@@ -1394,8 +1394,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      6908        662        448         20       1132     755529   Grand Totals
-      6908        662        448         20       1132     755529   ELF Image Totals
+      6908        662        448         20       1132     762049   Grand Totals
+      6908        662        448         20       1132     762049   ELF Image Totals
       6908        662        448         20          0          0   ROM Totals
 
 ==============================================================================

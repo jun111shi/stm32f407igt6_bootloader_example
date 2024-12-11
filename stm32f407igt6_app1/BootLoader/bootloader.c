@@ -177,6 +177,11 @@ void APP_Firmware_Updata(uint32_t APP_FLAG_ADDRESS,uint8_t *firmware_buffer,uint
 
 		// 更新Bootloader标志位为2，表示切换为新的固件
     Update_Bootloader_Flag(2,0x02);
-    // 执行系统复位操作，使系统基于新的固件等配置重新启动
+	
+		// 下方操作二选一
+	
+		// 操作一:执行系统复位操作，使系统基于新的固件等配置重新启动
     NVIC_SystemReset();
+		// 操作二:执行系统复位操作，使系统基于新的固件等配置重新启动
+//		JumpToApplication(APP_FLAG_ADDRESS);
 }
